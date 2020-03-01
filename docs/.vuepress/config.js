@@ -1,13 +1,7 @@
 module.exports = {
-	title: 'VuePress Blog Boilerplate',
+	title: 'Spencer Enos',
 	dest: './public',
 	themeConfig: {
-		repo: 'https://github.com/bencodezen/vuepress-blog-boilerplate',
-		repoLabel: 'Repo',
-		docsDir: 'src',
-		editLinks: true,
-		logo: '/vuepress-blog-logo.png',
-		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
@@ -25,7 +19,7 @@ module.exports = {
 			'vuepress-plugin-rss',
 			{
 				base_url: '/',
-				site_url: 'https://www.bencodezen.io',
+				site_url: 'https://www.spencerenos.com',
 				filter: frontmatter => frontmatter.date <= new Date(),
 				count: 20
 			}
