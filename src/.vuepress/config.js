@@ -4,17 +4,13 @@ module.exports = {
 	title: 'Spencer Enos',
 	dest: './public',
 	themeConfig: {
-		repo: 'https://wwww.github.com',
-		repoLabel: 'Repo',
-		editLinks: true,
-		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
 		],
-		logo: '/vuepress-blog-logo.png',
+		logo: '',
 		docsDir: 'src',
-		pageSize: 5,
+		pageSize: 2,
 		startPage: 0
 	},
 	plugins: [
@@ -28,7 +24,7 @@ module.exports = {
 			'vuepress-plugin-rss',
 			{
 				base_url: '/',
-				site_url: 'https://vuepressblog.org',
+				site_url: 'https://spencerenos.com',
 				filter: frontmatter => frontmatter.date <= new Date(currentDateUTC),
 				count: 20
 			}
@@ -46,3 +42,4 @@ module.exports = {
 		['meta', { name: 'theme-color', content: '#ffffff' }]
 	]
 }
+
