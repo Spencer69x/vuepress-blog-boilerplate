@@ -10,7 +10,7 @@ module.exports = {
 		],
 		logo: '',
 		docsDir: 'src',
-		pageSize: 2,
+		pageSize: 5,
 		startPage: 0
 	},
 	plugins: [
