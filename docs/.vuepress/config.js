@@ -10,7 +10,7 @@ module.exports = {
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
-			{ text: 'Learn', link: '/learn/' }
+			{ text: 'Blog', link: '/blog/' },
 		],
 		version: '0.11.0-beta'
 	},
