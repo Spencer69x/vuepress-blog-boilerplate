@@ -11,8 +11,6 @@ module.exports = {
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
-			{ text: 'Archive', link: '/archive/' },
-			{ text: 'RSS Feed', link: '/rss.xml' }
 		],
 		logo: '/vuepress-blog-logo.png',
 		docsDir: 'src',
