@@ -1,8 +1,9 @@
 {
-	"name": "vuepress-blog",
-	"description": "This is a basic template to use VuePress as your blogging platform",
+	"name": "Spencerenos",
+	"description": "I'm a quantitative financial journalist with 7 years of Derivitives Trading. I activiley trade while sharing my experience and insights on the financial markets",
 	"version": "0.11.0-beta",
-	"license": "MIT",
+	"author": "Spencer Enos",
+	"private": true,
 	"scripts": {
 		"dev": "vuepress dev src",
 		"dev:docs": "vuepress dev docs",
