@@ -2,8 +2,15 @@ const currentDateUTC = new Date().toUTCString()
 
 module.exports = {
 	title: 'Spencer Enos',
+	ga:'',
 	dest: './public',
 	themeConfig: {
+		repo: 'https://wwww.github.com',
+		repoLabel: 'Custom Repo Label',
+		docsDir: 'src',
+		logo: '/vuepress-blog-logo.png',
+		editLinks: true,
+		editLinkText: 'Found a bug? Help me improve this page!'
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
