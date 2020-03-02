@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="hero">
+    <div class="YOYOY">
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
